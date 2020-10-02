@@ -1,14 +1,13 @@
 import React from 'react';
 import {Switch,Route,Link} from "react-router-dom";
-import Home from './Home';
-import About from './About';
+import Home from './Components/Home';
+import About from './Components/About';
 import Footer from './Components/Footer';
 import Card from './Components/Card'
 
 function App() {
   return (
     <React.Fragment>
-
       <nav>
       <div className="nav-wrapper">
         <Link to="#" className="brand-logo">Logo</Link>
@@ -31,8 +30,6 @@ function App() {
     </React.Fragment>
   );
 }
-
-
 
 
 function Alumni(){
